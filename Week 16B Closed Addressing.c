@@ -1,3 +1,4 @@
+/*Done By M.Harish AIML A 231501058*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -100,3 +101,4 @@ int main() {
     freeTable(hashTable);
     return 0;
 }
+/*Done By M.Harish AIML A 231501058*/
