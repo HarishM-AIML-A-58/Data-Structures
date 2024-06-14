@@ -52,23 +52,16 @@ void primMST(int graph[MAX_VERTICES][MAX_VERTICES], int vertices) {
 }
 
 int main() {
-    int vertices;
-    printf("Input the number of vertices: ");
-    scanf("%d", &vertices);
-    
-    if (vertices <= 0 || vertices > MAX_VERTICES) {
-        printf("Invalid number of vertices. Exiting...\n");
-        return 1;
-    }
-    
-    int graph[MAX_VERTICES][MAX_VERTICES];
-    
-    printf("Input the adjacency matrix for the graph:\n");
-    for (int i = 0; i < vertices; i++) {
-        for (int j = 0; j < vertices; j++) {
-            scanf("%d", &graph[i][j]);
-        }
-    }
+    int vertices = 5; 
+
+   
+    int graph[MAX_VERTICES][MAX_VERTICES] = {
+        {0, 2, 0, 6, 0},
+        {2, 0, 3, 8, 5},
+        {0, 3, 0, 0, 7},
+        {6, 8, 0, 0, 9},
+        {0, 5, 7, 9, 0}
+    };
     
     primMST(graph, vertices);
     return 0;

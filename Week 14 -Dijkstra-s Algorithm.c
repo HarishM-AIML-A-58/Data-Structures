@@ -48,32 +48,17 @@ void dijkstra(int graph[MAX_VERTICES][MAX_VERTICES], int src, int vertices) {
 }
 
 int main() {
-    int vertices;
-    printf("Input the number of vertices: ");
-    scanf("%d", &vertices);
+    int vertices = 5;
     
-    if (vertices <= 0 || vertices > MAX_VERTICES) {
-        printf("Invalid number of vertices. Exiting...\n");
-        return 1;
-    }
+    int graph[MAX_VERTICES][MAX_VERTICES] = {
+        {0, 10, INT_MAX, 30, 100},
+        {10, 0, 50, INT_MAX, INT_MAX},
+        {INT_MAX, 50, 0, 20, 10},
+        {30, INT_MAX, 20, 0, 60},
+        {100, INT_MAX, 10, 60, 0}
+    };
     
-    int graph[MAX_VERTICES][MAX_VERTICES];
-    
-    printf("Input the adjacency matrix for the graph (use INT_MAX for infinity):\n");
-    for (int i = 0; i < vertices; i++) {
-        for (int j = 0; j < vertices; j++) {
-            scanf("%d", &graph[i][j]);
-        }
-    }
-    
-    int source;
-    printf("Input the source vertex: ");
-    scanf("%d", &source);
-    
-    if (source < 0 || source >= vertices) {
-        printf("Invalid source vertex. Exiting...\n");
-        return 1;
-    }
+    int source = 0;
     
     dijkstra(graph, source, vertices);
     return 0;

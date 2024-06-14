@@ -95,7 +95,7 @@ int main() {
     printf("Value for key 1: %d\n", search(hashTable, 1));
     printf("Value for key 2: %d\n", search(hashTable, 2));
     printf("Value for key 12: %d\n", search(hashTable, 12));
-    printf("Value for key 3: %d\n", search(hashTable, 3)); // Key not present
+    printf("Value for key 3: %d\n", search(hashTable, 3));
     delete(hashTable, 2);
     printf("Value for key 2 after deletion: %d\n", search(hashTable, 2));
     freeTable(hashTable);
