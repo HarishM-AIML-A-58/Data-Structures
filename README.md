@@ -1,10 +1,10 @@
-# 🎓 Python Record: College Assignments 📚
+# 📊 Data Structures Record: College Assignments 📚
 
 ![C](https://img.shields.io/badge/language-C-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-Complete-brightgreen.svg)
 
-Welcome to the **Python Record** repository! This collection of programs spans **16 weeks** of intensive learning, practice, and application of data structures and algorithms using C programming language, meticulously crafted as part of my college coursework.
+Welcome to the **Data Structures Record** repository! This collection of programs spans **16 weeks** of intensive learning, practice, and application of data structures and algorithms using the C programming language, meticulously crafted as part of my college coursework.
 
 ## 🚀 Table of Contents
 - [Week 1: Implementation of Single Linked List](#week-1-implementation-of-single-linked-list)
