@@ -1,6 +1,6 @@
 # 🎓 Python Record: College Assignments 📚
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![C](https://img.shields.io/badge/language-C-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-Complete-brightgreen.svg)
 
